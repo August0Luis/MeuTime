@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Time</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>MEU<span>TIME</span></h1>
+  </header>
+  <main class="main">
+    <div class="caixa-selecoes">
+      <div>
+        <p>País</p>
+        <select id="selectPais" onchange="habilitarLiga()">
+          <option value="">Selecione um País</option>
+          <option value="BR">Brasil</option>
+        </select>
+      </div>
+      <div>
+        <p>Liga</p>
+        <select id="selectLiga" onchange="habilitarTemporada()" disabled>
+          <option value="">Selecione uma Liga</option>
+          <option value="brasileirao">Brasileirão</option>
+        </select>
+      </div>
+      <div>
+        <p>Temporada</p>
+        <select id="selectTemporada" onchange="habilitarTime()" disabled>
+          <option value="">Selecione uma Temporada</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+        </select>
+      </div>
+      <div>
+        <p>Time</p>
+        <select id="selectTime" onchange="habilitarBotao()" disabled>
+          <option value="">Selecione um Time</option>
+          <option value="127">Flamengo</option>
+          <option value="124">Fluminense</option>
+          <option value="121">Palmeiras</option>
+          <option value="126">São Paulo</option>
+          <option value="128">Santos</option>
+        </select>
+      </div>
+      <div class="Avançar">
+        <input type="submit" value="Avançar!" class="avancar" id="botaoAvancar" disabled>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Site Desenvolvido por <a href="https://github.com/August0Luis">Luís Augusto</a></p>
+  </footer>
+  <script src="js/dadosdaApi.js"></script>
+  <script src="js/selecaoDaEquipe.js"></script>
+  <script src="https://kit.fontawesome.com/1cc2cfb255.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

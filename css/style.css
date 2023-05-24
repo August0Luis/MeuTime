@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid yellow;
+    height: 10vh;
+}
+
+header h1 {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+header h1 span {
+    color: yellow;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    font-size: 25px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px; 
+    height: auto;
+}
+
+.input {
+    margin: 25px;
+    padding: 10px 20px;
+    border: none;
+    white-space: normal;
+    width: 250px;
+}
+
+.entrar {
+    padding: 5px 40px;
+    background-color: yellow;
+    border: 0;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.caixa-entrar {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-selecoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+select {
+    padding: 15px 0px;
+    width: 215px;
+    margin: 15px 0 15px 0;
+}
+
+.avancar {
+    padding: 5px 40px;
+    background-color: yellow;
+    border: 0;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.caixa-time {
+    border-bottom: 1px solid yellow;
+    margin-bottom: 20px;
+}
+
+table {
+    margin-top: 60px;
+    display: flex;
+}
+
+
+th,
+td,
+tr,
+thead {
+    border: 1px solid yellow;
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    border-top: 1px solid yellow;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
