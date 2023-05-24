@@ -24,6 +24,12 @@ header h1 span {
     color: yellow;
 }
 
+span {
+    color: red;
+    font-size: small;
+    margin-top: 100px;
+}
+
 main {
     display: flex;
     align-items: center;
